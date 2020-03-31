@@ -7,8 +7,8 @@ import json
 def Get_API():  #To obtain API
 
     #Register Baidu intelligent cloud face comparison interface to obtain API Key and Secret Key.
-    client_id = 'YVzyhsISggLniI7r4KDKMSev'    
-    client_secret = 'z6Uao2hag5xLSpoPi2DPOs2vUnfFQ2IE'    
+    client_id = 'API Key'    
+    client_secret = 'Secret Key'    #Please replace when using
     host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=%s&client_secret=%s'%(client_id,client_secret)
 
     #Construct a function,request the value of the Access_token from the server and generate the face comparison API.
